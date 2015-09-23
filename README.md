@@ -1,3 +1,5 @@
+## COMMANDS
+
 ### DELETE TAG
 	git tag -d <tag>
 	git push origin :refs/tags/<tag>
@@ -16,6 +18,8 @@
 	git remote -v
 	git remote set-url origin <origin_url>
 
+## CONFIGURATION
+
 ### DISABLE SSL CERTIFICATE
 	git config http.sslVerify "false"
 
@@ -28,3 +32,5 @@
 	git config --global alias.br branch
 	git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 	
+### SET GLOBAL CONFIG
+	git config --global core.excludesfile '~/.gitignore'
