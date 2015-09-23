@@ -11,6 +11,9 @@
 ### SHOW DIFFERENCES WITH STAGE
 	git diff --staged
 
+### SHOW FILES MODIFIED IN PREVIOUS COMMIT
+	git show <commit> --name-only
+
 ### REVERT A COMMITED FILE PRESERVING CHANGES AS UNESTAGED
 	git reset <commit>
 
