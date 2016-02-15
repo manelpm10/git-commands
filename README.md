@@ -1,5 +1,9 @@
 ## COMMANDS
 
+### ADD TAG
+	git tag -a <tag> -m 'Initial release'
+	git push --tag
+
 ### DELETE TAG
 	git tag -d <tag>
 	git push origin :refs/tags/<tag>
