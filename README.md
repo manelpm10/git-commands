@@ -20,7 +20,7 @@
 
 ### UNCOMMIT AN UNPUSHED FILE PRESERVING CHANGES
         git reset <commit> --soft
-	git reset HEAD~1 --soft #last commit
+        git reset HEAD~1 --soft #last commit
 
 ### REVERT A COMMITED FILE PRESERVING CHANGES AS UNESTAGED
 	git reset <commit>
